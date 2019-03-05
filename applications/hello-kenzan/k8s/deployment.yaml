@@ -30,7 +30,7 @@ spec:
         tier: hello-kenzan
     spec:
       containers:
-      - image: image-name-here
+      - image: 10.100.9.29/ciscolive/hello-kenzan:$tag
         name: hello-kenzan
         ports:
         - containerPort: 80
